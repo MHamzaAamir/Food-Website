@@ -1,0 +1,117 @@
+
+
+
+.custom-nav {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    }
+    
+    .custom-nav .nav-link {
+    color: #000;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    }
+    
+    .custom-nav .nav-link.active {
+    background-color: #ffa41b;
+    color: #25274d;
+    border-radius: 4px;
+    }
+    
+    .custom-nav .nav-link:hover {
+    background-color: #fff;
+    color: #25274d;
+    border-radius: 4px;
+    box-shadow: 0 0 6px rgba(37, 39, 77, 0.3);
+    }
+
+
+
+
+    /* Menu CSS */
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+      
+      .w-50 {
+        width: 50%;
+      }
+      
+      .w-100 {
+        width: 100%;
+      }
+      
+      .my-1 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+      }
+      
+      .my-2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      
+      .form-control {
+        width: 100%;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        border: 1px solid #ced4da;
+      }
+      
+      .custom-select {
+        height: calc(1.5em + 0.75rem + 2px);
+        padding: 0.375rem 1.75rem 0.375rem 0.75rem;
+      }
+      
+      .btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        border: 1px solid transparent;
+        padding: 0.375rem 0.75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 0.25rem;
+        transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+          border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+      }
+      
+      .btn-success {
+        color: #fff;
+        background-color: #28a745;
+        border-color: #28a745;
+      }
+      
+      .btn-success:hover {
+        color: #fff;
+        background-color: #218838;
+        border-color: #1e7e34;
+      }
+      
+      .btn-success:focus {
+        color: #fff;
+        background-color: #218838;
+        border-color: #1e7e34;
+        box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+      }
+      
+      .btn-success:active {
+        color: #fff;
+        background-color: #218838;
+        border-color: #1e7e34;
+        box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.5);
+      }
+      

@@ -1,0 +1,91 @@
+  
+  .cart {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .cart-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px 0 0 8px;
+  }
+  
+  .cart-body {
+    padding: 1.5rem;
+  }
+  
+  .cart-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .cart-text {
+    margin-bottom: 0.5rem;
+  }
+  
+  .delete-button {
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .delete-button:hover {
+    background-color: #c82333;
+  }
+  
+  @media (max-width: 576px) {
+    .cart {
+      width: 100%;
+    }
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+  .empty-cart {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 36px;
+    color: #000000;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    border: solid black 1px
+  }
+
+
+
+
+  /* total + delete */
+
+  .total-price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  .place-order-btn {
+    background-color: #ff5e3a;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .place-order-btn:hover {
+    background-color: #ff3a20;
+  }
+  

@@ -1,0 +1,46 @@
+
+  .rider-card {
+    width: 400px;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+  }
+
+  .rider-card-header {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 6px 6px 0 0;
+  }
+
+  .rider-card-title {
+    margin-bottom: 0;
+    font-size: 18px;
+  }
+
+  .rider-card-body {
+    padding: 10px;
+  }
+
+  .rider-card-text {
+    margin-bottom: 5px;
+  }
+
+  .rider-card-item {
+    margin-bottom: 10px;
+  }
+
+  .rider-card-divider {
+    margin-top: 0;
+    margin-bottom: 10px;
+    border: none;
+    border-top: 1px dashed #dee2e6;
+  }
+
+  .rider-card-actions {
+    padding: 10px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    border-radius: 0 0 6px 6px;
+    text-align: right;
+  }
